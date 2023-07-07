@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>チュートリアルToDoリスト</h1>
+    <h1>ToDoリスト</h1>
 
     <label v-for="label in options" v-bind:key="label.value">
       <input type="radio" v-model="current" v-bind:value="label.value" />{{
